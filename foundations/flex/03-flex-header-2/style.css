@@ -46,3 +46,30 @@ a {
 ul {
   list-style-type: none;
 }
+
+/* MY SOLUTION */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.left>ul {
+  display: flex;
+  padding: 0;
+  gap: 16px;
+}
+
+.right, .left {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+/* In the preview there is a padding in notifications button */
+.notifications {
+  padding: 8px 32px;
+}
+
