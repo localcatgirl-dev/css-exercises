@@ -24,3 +24,47 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* MY SOLUTION  */
+
+/* remove bullets and stuff  */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 16px;
+}
+
+a {
+  text-decoration-line: none;
+  color: #545454;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+button {
+  padding: 10px;
+}
